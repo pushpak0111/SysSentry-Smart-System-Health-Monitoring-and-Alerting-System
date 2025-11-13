@@ -5,52 +5,53 @@ It continuously tracks CPU, Memory, and Disk usage, visualizes trends with slidi
 
 This project demonstrates skills in:
 
-Live data streaming
+- Live data streaming
 
-Backend–frontend integration
+- Backend–frontend integration
 
-Performance monitoring
+- Performance monitoring
 
-Real-time dashboards
+- Real-time dashboards
 
-Cloud database (Supabase)
+- Cloud database (Supabase)
 
-Plotly visualizations
+- Plotly visualizations
 
-Python systems programming
+- Python systems programming
 
-**🚀 Features
-✅ Real-Time Monitoring**
+**🚀 Features**
 
-Tracks system CPU, Memory, and Disk usage
+- ✅ Real-Time Monitoring
 
-Displays live-updating charts with a sliding time window
+- Tracks system CPU, Memory, and Disk usage
 
-Automatically fetches new data without manual refresh
+- Displays live-updating charts with a sliding time window
 
-🧠 Intelligent Alerts
+- Automatically fetches new data without manual refresh
 
-Detects threshold breaches (high CPU/memory/disk)
+- 🧠 Intelligent Alerts
 
-Logs alerts with timestamps into Supabase
+- Detects threshold breaches (high CPU/memory/disk)
 
-Provides diagnostic suggestions for each alert
+- Logs alerts with timestamps into Supabase
 
-**📊 Modern Dashboard
-**
-Built with Streamlit
+- Provides diagnostic suggestions for each alert
 
-Clean UI with dark mode Plotly charts
+**📊 Modern Dashboard**
 
-Real-time KPIs, graphs, and alert logs
+- Built with Streamlit
 
-**☁️ Cloud Synced Backend**
+- Clean UI with dark mode Plotly charts
 
-Supabase stores metrics & alerts
+- Real-time KPIs, graphs, and alert logs
 
-Dashboard fetches and updates continuously
+- ☁️ Cloud Synced Backend
 
-Scalable backend architecture
+- Supabase stores metrics & alerts
+
+- Dashboard fetches and updates continuously
+
+**Scalable backend architecture**
 
 🧩 Project Structure
 SysSentry/
@@ -64,7 +65,7 @@ SysSentry/
 ├── .env.example            # Template for environment variables
 └── README.md               # Project documentation
 
-🛠️ Tech Stack
+**🛠️ Tech Stack**
 Layer	Tools
 Frontend	Streamlit, Plotly
 Backend	Python, Supabase Realtime & PostgreSQL
@@ -72,7 +73,9 @@ System Data	psutil
 Languages	Python
 Cloud	Supabase
 Environment	dotenv
-⚙️ Installation & Setup
+
+**⚙️ Installation & Setup**
+
 1️⃣ Clone the repository
 git clone https://github.com/pushpakkore0111/SysSentry.git
 cd SysSentry
@@ -110,7 +113,7 @@ streamlit run dashboard.py
 <img width="1905" height="909" alt="image" src="https://github.com/user-attachments/assets/1d225438-60c2-4895-aa62-21c14055dbc0" />
 
 
-🧠 How It Works (Architecture Overview)
+**🧠 How It Works (Architecture Overview)**
 
 monitor.py
 
