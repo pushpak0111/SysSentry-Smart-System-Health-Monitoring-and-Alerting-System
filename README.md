@@ -19,8 +19,8 @@ Plotly visualizations
 
 Python systems programming
 
-🚀 Features
-✅ Real-Time Monitoring
+**🚀 Features
+✅ Real-Time Monitoring**
 
 Tracks system CPU, Memory, and Disk usage
 
@@ -36,15 +36,15 @@ Logs alerts with timestamps into Supabase
 
 Provides diagnostic suggestions for each alert
 
-📊 Modern Dashboard
-
+**📊 Modern Dashboard
+**
 Built with Streamlit
 
 Clean UI with dark mode Plotly charts
 
 Real-time KPIs, graphs, and alert logs
 
-☁️ Cloud Synced Backend
+**☁️ Cloud Synced Backend**
 
 Supabase stores metrics & alerts
 
@@ -74,7 +74,7 @@ Cloud	Supabase
 Environment	dotenv
 ⚙️ Installation & Setup
 1️⃣ Clone the repository
-git clone https://github.com/<yourusername>/SysSentry.git
+git clone https://github.com/pushpakkore0111/SysSentry.git
 cd SysSentry
 
 2️⃣ Create a virtual environment
@@ -89,9 +89,10 @@ pip install -r requirements.txt
 Create a .env file:
 
 SUPABASE_URL=your_supabase_project_url
-SUPABASE_SERVICE_ROLE=your_service_role_key
-SUPABASE_ANON_KEY=your_public_anon_key
 
+SUPABASE_SERVICE_ROLE=your_service_role_key
+
+SUPABASE_ANON_KEY=your_public_anon_key
 
 ⚠️ Never upload your actual .env to GitHub.
 
@@ -106,16 +107,8 @@ streamlit run dashboard.py
 
 📸 Dashboard Preview
 
-(Optional: Place a screenshot here)
-Example:
+<img width="1905" height="909" alt="image" src="https://github.com/user-attachments/assets/1d225438-60c2-4895-aa62-21c14055dbc0" />
 
-assets/
-   └── dashboard_preview.png
-
-
-Then embed with:
-
-![Dashboard Preview](assets/dashboard_preview.png)
 
 🧠 How It Works (Architecture Overview)
 
